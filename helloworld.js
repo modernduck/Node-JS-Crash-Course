@@ -58,13 +58,7 @@ var people = {
 }
 console.log(people);
 console.log(people.name, people.age);
-var employees = [
-    { name : "Sompop", age:30 },
-    { name : "Sommhai", age:25 },
-    { name : "Mark", age:50 },
-    { name : "Billy", age:20 },
-    { name : "Johnny", age:35 },
-]
+var employees = [{ "name" : "Sompop", "age":30 },{ "name" : "Sommhai", "age":25 },{ "name" : "Mark", "age":50 },{ "name" : "Billy", "age":20 },{ "name" : "Johnny", "age":35 }]
 console.log("Employees", employees);
 
 //find sum of emplyees Age
