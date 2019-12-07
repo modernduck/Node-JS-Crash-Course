@@ -4,7 +4,8 @@
   "description": "this is good",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js data/employee.json",
+    "start":"node app.js data/employee.json output/report1.json",
+    "filter":"node filter.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
